@@ -1,6 +1,6 @@
 logo_invert_colors: true
 logo_hue_rotation:
-  default: -30
+  default: 0
   type: integer
   description: "Specify a value in degrees to change the color of your logo. If you don't know what this is you could leave it in 0 or google 'css filter hue rotation'"
   min: -360
