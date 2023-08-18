@@ -1,12 +1,18 @@
-@font-face {
-  font-family: "Playfair Display";
-  src: url($playfair-display-regular);
-}
+// @font-face {
+//   font-family: "Playfair Display";
+//   src: url($playfair-display-regular);
+// }
 
+// @font-face {
+//   font-family: "Playfair Display";
+//   src: url($playfair-display-semibold);
+//   font-weight: bold;
+// }
+
+// import formwelt-font
 @font-face {
-  font-family: "Playfair Display";
-  src: url($playfair-display-semibold);
-  font-weight: bold;
+  font-family: "Ranade";
+  src: url($font_ranade_thin) format('woff2')
 }
 
 @mixin badge($color) {
@@ -122,7 +128,8 @@
   // --silver: silver;
   --main-background: var(--quaternary);
   --light-accent: var(--quaternary);
-  --heading-font-family: "Playfair Display", serif;
+  // --heading-font-family: "Playfair Display", serif;
+  --heading-font-family: "Ranade", sans-serif;
 }
 
 $font-size-large: 3rem;

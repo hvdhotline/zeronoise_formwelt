@@ -9,7 +9,9 @@
   "maximum_discourse_version": null,
   "assets": {
     "playfair-display-regular": "assets/PlayfairDisplay-Regular.ttf",
-    "playfair-display-semibold": "assets/PlayfairDisplay-SemiBold.ttf"
+    "playfair-display-semibold": "assets/PlayfairDisplay-SemiBold.ttf",
+    "img_world" : "assets/globe.png",
+    "font_ranade_thin" : "assets/Ranade-Thin.woff2"
   },
   "color_schemes": {
     "Zeronoise": {
@@ -23,7 +25,19 @@
       "danger": "ed2f2f",
       "success": "14ba60",
       "love": "fe5c5c"
-    }
+    },
+    "formwelt-light": {
+      "primary": "2d2a3d",
+      "secondary": "f9fcff",
+      "tertiary": "040727",
+      "quaternary": "7e8b93",
+      "header_background": "040727",
+      "header_primary": "f9fcff",
+      "highlight": "040727",
+      "danger": "d05454",
+      "success": "71bd9f",
+      "love": "fe0101"
+    },
   },
   "modifiers": {},
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
